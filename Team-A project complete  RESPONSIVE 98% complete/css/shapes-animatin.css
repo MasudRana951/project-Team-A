@@ -1,0 +1,403 @@
+/* banner shapes atart here */
+#banner .shape_1{
+    position: absolute;
+    left: 150px;
+    top: 22%;
+    opacity: 10%;
+    animation: shape1 infinite linear 4s alternate;
+}
+@keyframes shape1 {
+    0%{
+        left: 150px;
+        top: 22%;
+    }
+
+    100%{
+        left: 150px;
+        top: 14%;
+    }
+}
+
+#banner .shape_2{
+    position: absolute;
+    right: 60px;
+    top: 170px;
+    opacity: 20%;
+    animation: shape2 infinite linear 2s alternate;
+
+}
+@keyframes shape2 {
+    0%{
+        right: 60px;
+        top: 170px;
+    }
+
+    100%{
+        right: 60px;
+        top: 150px;
+    }
+}
+#banner .shape_3{
+    position: absolute;
+    right: 450px;
+    bottom: 250px;
+    opacity: 40%;
+    animation: shape3 infinite linear 2s alternate;
+}
+@keyframes shape3{
+    0%{
+        right: 450px;
+        bottom: 250px;
+    }
+    100%{
+        right: 470px;
+        bottom: 250px;
+    }
+}
+#banner .shape_4 {
+    position: absolute;
+    right: 300px;
+    top: 17%;
+    animation: shape4 infinite linear 5s ;
+}
+@keyframes shape4 {
+    0%{
+        right: 300px;
+        top: 17%;
+        transform: rotate(0deg);
+    }
+
+    100%{
+        right: 300px;
+        top: 17%;
+        transform: rotate(360deg);
+    }
+}
+#banner .banner_image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* banner shapes end here */
+
+
+
+
+/* why chose this part shape start here */
+
+#why_chose .shape_1{
+    position: absolute;
+    top: 384px;
+    left: 323px;
+    width: 50px;
+    height: 50px;
+    opacity: 20%;
+}
+#why_chose .shape_2{
+    position: absolute;
+    right: 317px;
+    top: 208px;
+    opacity: 30%;
+}
+#why_chose .shape_3{
+    position: absolute;
+    right: 31px;
+    top: 150px;
+    width: 340px;
+    height: 340px;
+    opacity: 30%;
+}
+#why_chose .shape_3 img{
+    width: 100%;
+    height: 100%;
+}
+#why_chose .shape_4{
+    position: absolute;
+    top: 221px;
+    left: 185px;
+    opacity: 30%;
+    animation: chose-shape-4 infinite 3s alternate;
+}
+@keyframes chose-shape-4 {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+#why_chose .shape_5{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    top: 780px;
+    left: 277px;
+    opacity: 30%;
+}
+#why_chose .shape_5 img{
+    width: 100%;
+    height: 100%;
+}
+#why_chose .shape_6{
+    position: absolute;
+    right: 230px;
+    top: 556px;
+    opacity: 30%;
+}
+#why_chose .shape_7{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    opacity: 80%;
+    animation: chose-shape-7  infinite 2s  linear alternate;
+}
+
+@keyframes chose-shape-7 {
+    0%{
+        bottom: 0;
+        right: 10px;
+    }
+    0%{
+        bottom: 60px;
+        right: 0px;
+    }
+}
+/* why chose this part shape end here */
+
+
+
+
+/* WORKING PROCESS shape start here */
+#working_process .shape1{
+    position: absolute;
+    top: 280px;
+    left: 95px;
+    opacity: 100%;
+    animation: process-shape-1 infinite 3s  linear alternate;
+}
+@keyframes process-shape-1 {
+    0%{
+        top: 280px;
+        left: 95px;
+    }
+    100%{
+        top: 190px;
+        left: 95px;
+    }
+}
+#working_process .shape2{
+    position: absolute;
+    top: 380px;
+    left: 35px;
+    opacity: 70%;
+    animation: process-shape-2 infinite 4s  linear alternate;
+}
+@keyframes process-shape-2 {
+    0%{
+        top: 380px;
+        left: 35px;
+    }
+    100%{
+        top: 310px;
+        left: 35px;
+    }
+}
+#working_process .shape3{
+    position: absolute;
+    bottom: 0px;
+    right: 110px;
+    opacity: 80%;
+    animation: process-shape-3 infinite 3s  linear alternate;
+}
+@keyframes process-shape-3 {
+    0%{
+        bottom: 0px;
+        right: 110px
+    }
+    100%{
+        bottom: 138px;
+        right: 110px
+    }
+}
+#working_process .shape4{
+    position: absolute;
+    bottom: 100px;
+    right: 47px;
+    opacity: 100%;
+    animation: process-shape-4 infinite 4s  linear alternate;
+}
+
+@keyframes process-shape-4 {
+    0%{
+        bottom: 80px;
+        right: 47px;
+    }
+    100%{
+        bottom: 170px;
+        right: 47px;
+    }
+}
+/* WORKING PROCESS shape end here */
+
+
+
+/* SCREENSHOTS shape start here */
+#screenshots .screenshot_shape .screen_shape_1{
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+    opacity: 100%;
+    animation: screnshot-shape-1 infinite 2s  linear alternate;
+}
+@keyframes screnshot-shape-1 {
+    0%{
+        left: 120px;
+        bottom: 0;
+    }
+    100%{
+        left: 120px;
+        bottom: 60px;
+    }
+}
+#screenshots .screenshot_shape .screen_shape_2{
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    opacity: 80%;
+    animation: screnshot-shape-2 infinite 3s  linear alternate;
+}
+@keyframes screnshot-shape-2 {
+    0%{
+        left: 80px;
+        bottom: 0;
+    }
+    100%{
+        left: 80px;
+        bottom: 80px;
+    }
+}
+/* SCREENSHOTS shape end here */
+
+
+
+/* TESTIMONIAL SHAPE START HERE */
+#testimonial .shape_1{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    opacity: 80%;
+    animation: testimonial-shape-1 infinite 4.5s  linear alternate;
+}
+@keyframes testimonial-shape-1 {
+    0%{
+        right: 50px;
+        bottom: 50px;
+    }
+    100%{
+        right: 50px;
+        bottom: 180px;
+    }
+}
+#testimonial .shape_2{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    opacity: 100%;
+    animation: testimonial-shape-2 infinite 3.5s  linear alternate;
+}
+@keyframes testimonial-shape-2 {
+    0%{
+        right: 100px;
+        bottom: 50px;
+    }
+    100%{
+        right: 100px;
+        bottom: 120px;
+    }
+}
+/* TESTIMONIAL SHAPE END HERE */
+
+
+
+/* PRICING PLANS SHAPE START HERE */
+#price_section .pric_shape_1{
+    position: absolute;
+    bottom: 25px;
+    right: 100px;
+    opacity: 30%;
+}
+#price_section .pric_shape_1 img{
+    width: 90%;
+}
+#price_section .pric_shape_2{
+    position: absolute;
+    top: 169px;
+    right: 374px;
+    opacity: 30%;
+}
+#price_section .pric_shape_2 img{
+    width: 90%;
+}
+#price_section .pric_shape_3{
+    position: absolute;
+    top: 65px;
+    right: 152px;
+    opacity: 30%;
+}
+#price_section .pric_shape_3 img{
+    width: 80%;
+}
+#price_section .pric_shape_4{
+    position: absolute;
+    right: 0px;
+    bottom: 100px;
+    opacity: 30%;
+}
+#price_section .pric_shape_4 img{
+    width: 80%;
+}
+#price_section .pric_shape_5{
+    position: absolute;
+    left: 356px;
+    top: 600px;
+    opacity: 20%;
+}
+#price_section .pric_shape_5 img{
+    width: 80%;
+}
+#price_section .pric_shape_6{
+    position: absolute;
+    left: 0;
+    bottom: 266px;
+    opacity: 30%;
+}
+#price_section .pric_shape_6 img{
+    width: 70%;
+}
+#price_section .pric_shape_7{
+    position: absolute;
+    top: 261px;
+    left: 348px;
+    opacity: 30%;
+}
+#price_section .pric_shape_7 img{
+    width: 40%;
+}
+/* PRICING PLANS SHAPE END HERE */
+
+
+
+/* COMMENT SECTION SHAPE HERE */
+#our_team .shape_1{
+    position: absolute;
+    bottom: 0;
+}
+#our_team .shape_2{
+    position: absolute;
+    bottom: 75px;
+    right: 0px;
+}
+#our_team .shape_2 img{
+    max-width: 100%;
+}
+/* COMMENT SECTION SHAPE HERE */
